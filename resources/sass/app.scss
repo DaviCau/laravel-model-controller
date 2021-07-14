@@ -1,0 +1,17 @@
+@import 'partials/_card.scss';
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.cards-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
